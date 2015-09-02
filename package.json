@@ -1,0 +1,19 @@
+{
+  "name": "flipper-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emartech/flipper-js.git"
+  },
+  "author": "Viktor Somodi <viktor.somodi@emarsys.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emartech/flipper-js/issues"
+  },
+  "homepage": "https://github.com/emartech/flipper-js#readme"
+}
