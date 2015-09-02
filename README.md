@@ -36,6 +36,6 @@ Usage from service api response
 Usage in Angular Js
 ---------
 
-    [There is a wrapper for this class to use with angularJS](https://github.com/emartech/angular-suite-flipper)
+[There is a wrapper for this class to use with angularJS](https://github.com/emartech/angular-suite-flipper)
     
     
