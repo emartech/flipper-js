@@ -40,6 +40,19 @@ describe('Flipper', function() {
 
   });
 
+  describe('without given flipper list', function() {
+
+    beforeEach(function() {
+      flipper = Flipper.create();
+    });
+
+    it('should use empty array as default', function() {
+      this.expect(flipper.isOn('bi')).to.be.false;
+      this.expect(flipper.isOff('bi')).to.be.true;
+    });
+
+  });
+
   describe('Factories', function() {
 
     describe('#createForApiResponse', function() {
