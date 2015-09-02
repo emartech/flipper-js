@@ -1,5 +1,5 @@
 {
-  "name": "flipper-js",
+  "name": "suite-flipper-js",
   "version": "1.0.0",
   "description": "Flipper Class",
   "main": "lib/index.js",
