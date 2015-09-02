@@ -17,7 +17,7 @@ Usage
     flipper.isOff('notInTheList'); //true
     
     
-Usage from api response
+Usage from service api response
 ---------
     
     var flipper = Flipper.createForApiResponse([
@@ -32,3 +32,10 @@ Usage from api response
     flipper.isOff('bi'); //false
     flipper.isOff('dummy2'); //true
     flipper.isOff('notInTheList'); //true
+    
+Usage in Angular Js
+---------
+
+    [There is a wrapper for this class to use with angularJS](https://github.com/emartech/angular-suite-flipper)
+    
+    
