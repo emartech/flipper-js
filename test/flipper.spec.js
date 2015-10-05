@@ -1,6 +1,6 @@
 'use strict';
 
-var Flipper = require('..');
+var Flipper = require('../lib/');
 
 describe('Flipper', function() {
 
