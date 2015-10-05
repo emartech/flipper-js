@@ -3,7 +3,7 @@
 Install
 ---------
 
-```javascript
+```bash
 npm install --save suite-flipper-js
 ```
 Usage
