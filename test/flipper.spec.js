@@ -21,6 +21,11 @@ describe('Flipper', function() {
       this.expect(flipper.isOn('predict')).to.be.false;
     });
 
+
+    it('should run on the service context', function() {
+      this.expect(flipper.isOn.call(undefined, 'bi')).to.be.true;
+    });
+
   });
 
   describe('#isOff', function() {
@@ -36,6 +41,11 @@ describe('Flipper', function() {
 
     it('should respond with true if given flipper is not provided', function() {
       this.expect(flipper.isOff('predict')).to.be.true;
+    });
+
+
+    it('should run on the service context', function() {
+      this.expect(flipper.isOff.call(undefined, 'bi')).to.be.false;
     });
 
   });
