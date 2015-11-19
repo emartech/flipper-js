@@ -1,4 +1,4 @@
-# suite-flipper-js
+# Suite Flipper JS
 
 Install
 ---------
