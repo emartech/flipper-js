@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/emartech/flipper-js.git"
   },
-  "author": "Viktor Somodi <viktor.somodi@emarsys.com>",
+  "author": "Emartech",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/emartech/flipper-js/issues"
