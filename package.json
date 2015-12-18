@@ -8,6 +8,11 @@
     "prepublish": "npm test && npm run build",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
+  "release": {
+    "verifyConditions": {
+      "path": "./node_modules/semantic-release/dist/lib/plugin-noop.js"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/emartech/flipper-js.git"
