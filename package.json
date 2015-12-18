@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emartech/flipper-js.git"
+    "url": "git+https://github.com/emartech/suite-flipper-js.git"
   },
   "author": "Emartech",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/emartech/flipper-js/issues"
+    "url": "https://github.com/emartech/suite-flipper-js/issues"
   },
   "devDependencies": {
     "babel-cli": "6.3.17",
@@ -29,5 +29,5 @@
     "mocha": "2.3.4",
     "semantic-release": "4.3.5"
   },
-  "homepage": "https://github.com/emartech/flipper-js#readme"
+  "homepage": "https://github.com/emartech/suite-flipper-js#readme"
 }
