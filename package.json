@@ -1,6 +1,5 @@
 {
   "name": "suite-flipper-js",
-  "version": "1.0.5",
   "description": "Flipper Class",
   "main": "dist/index.js",
   "scripts": {
