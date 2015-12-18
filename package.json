@@ -18,10 +18,10 @@
     "url": "https://github.com/emartech/flipper-js/issues"
   },
   "devDependencies": {
-    "babel-cli": "^6.2.0",
-    "babel-preset-es2015": "^6.1.18",
-    "chai": "^3.2.0",
-    "mocha": "^2.3.2",
+    "babel-cli": "6.3.17",
+    "babel-preset-es2015": "6.3.13",
+    "chai": "3.4.1",
+    "mocha": "2.3.4",
     "semantic-release": "4.3.5"
   },
   "homepage": "https://github.com/emartech/flipper-js#readme"
