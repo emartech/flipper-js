@@ -70,6 +70,17 @@ describe('Flipper', function() {
     });
 
 
+    describe('#getFlippers', function() {
+
+      it('should respond with false if given flipper is provided', function() {
+        const givenFlippers = ['bi', 'dummy', 'dummy2'];
+        const flipper = Flipper.create(givenFlippers);
+        this.expect(flipper.getFlippers()).to.eql(givenFlippers);
+      });
+
+    });
+
+
   });
 
 
